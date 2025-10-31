@@ -5,14 +5,19 @@ package www.s4owy.cn.d05;
 
 public class count {
     public static void main(String[] args) {
+        int num = 10;
         int result = 0;
         int[] arr = new int[]{2, 1, 3, 5, 4};
-        for (int i = arr.length; i > 0; i--) {
-            if (i == arr.length){
+
+        //arr.length 是数组长度 下标应-1
+        for (int i = (arr.length - 1); i >= 0; i--) {
+            if (i == (arr.length - 1)) {
                 result = arr[i];
+                continue;
             }
-
-
+            result += arr[i] * num;
+            num = num * 10;
         }
+        System.out.println(result);
     }
 }
