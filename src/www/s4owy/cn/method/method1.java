@@ -8,7 +8,18 @@ package www.s4owy.cn.method;
 import java.util.Scanner;
 
 public class method1 {
+    public static void main(String[] args) {
+        ifSmall();
+    }
     public static void ifSmall(){
+        Scanner input = new Scanner(System.in);
+        int a = input.nextInt();
+        int b = input.nextInt();
 
+        if (a>b){
+            System.out.println(b);
+        }else{
+            System.out.println(a);
+        }
     }
 }
