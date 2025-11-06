@@ -2,7 +2,7 @@ package www.s4owy.cn.method;
 
 import java.util.Scanner;
 
-public class method2 {
+public class methodFindMax {
     public static void main(String[] args) {
         getResult();
 
