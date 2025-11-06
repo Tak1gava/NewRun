@@ -21,5 +21,6 @@ public class method1 {
         }else{
             System.out.println(a);
         }
+
     }
 }
