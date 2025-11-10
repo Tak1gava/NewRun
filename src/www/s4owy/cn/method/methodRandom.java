@@ -18,13 +18,15 @@ import java.util.Random;
 public class methodRandom {
     public static void main(String[] args) {
         int[] gift = new int[]{2,588,888,1000,10000};
+        int[] temp = new int[gift.length];
 
 
     }
     public static void extract(int[] arr){
         Random ran = new Random();
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(ran.nextInt(1));
+            System.out.println(arr[ran.nextInt(4)]+"元的奖金被抽出");
+
         }
     }
 }
